@@ -1,0 +1,10 @@
+certifi==2018.4.16
+chardet==3.0.4
+idna==2.6
+Jinja2==2.10
+MarkupSafe==1.0
+python-dotenv==0.8.2
+requests==2.18.4
+simplejson==3.14.0
+spotipy==2.4.4
+urllib3==1.22

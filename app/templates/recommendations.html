@@ -1,0 +1,43 @@
+<html>
+<head></head>
+<body>
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Recommendations</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for recommendation in recommendations %}
+        <tr>
+            <td>{{recommendation}}</td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<br />
+<br />
+<br />
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Previous Additions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for entry in previous_entries %}
+        <tr>
+            <td>{{entry}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+<head></head>
+<body>
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>New Releases</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for track in tracks %}
+        <tr>
+            <td>{{track}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<br />
+<br />
+<br />
+
+<table style="width:100%">
+    <thead>
+        <tr>
+            <th>Previous Additions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for entry in previous_entries %}
+        <tr>
+            <td>{{entry}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+</body>
+</html>
